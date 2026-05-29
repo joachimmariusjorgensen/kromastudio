@@ -1,0 +1,369 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "meta": {
+    "name": "Kroma Studio Design System",
+    "version": "1.0",
+    "updated": "2026-05-28",
+    "sources": {
+      "webflow": "https://joachims-exceptional-site-31862c.webflow.io",
+      "styleguide": "https://joachims-exceptional-site-31862c.webflow.io/style-guide",
+      "collection": "Kroma Design Tokens"
+    }
+  },
+
+  "color": {
+    "ink": {
+      "$value": "#1a1a1a",
+      "$type": "color",
+      "cssVar": "--_kroma-design-tokens---color-ink",
+      "figmaName": "color/ink",
+      "usage": "Primær tekst, overskrifter, mørk bakgrunn (footer, knapper)"
+    },
+    "warmWhite": {
+      "$value": "#faf9f7",
+      "$type": "color",
+      "cssVar": "--_kroma-design-tokens---color-warm-white",
+      "figmaName": "color/warm-white",
+      "usage": "Sidebakgrunn, primær overflate"
+    },
+    "linen": {
+      "$value": "#e8e3dc",
+      "$type": "color",
+      "cssVar": "--_kroma-design-tokens---color-linen",
+      "figmaName": "color/linen",
+      "usage": "Kortbakgrunn (#f5f3ef i bruk), skillelinjer, bildeplassholdere"
+    },
+    "stone": {
+      "$value": "#9a8f82",
+      "$type": "color",
+      "cssVar": "--_kroma-design-tokens---color-stone",
+      "figmaName": "color/stone",
+      "usage": "Sekundær tekst, labels, eyebrow-tekst, dimensjoner"
+    },
+    "warmGray": {
+      "$value": "#6b6359",
+      "$type": "color",
+      "cssVar": "--_kroma-design-tokens---color-warm-gray",
+      "figmaName": "color/warm-gray",
+      "usage": "Brødtekst, intro-tekst, beskrivelser"
+    },
+    "accent": {
+      "$value": "#c8a882",
+      "$type": "color",
+      "cssVar": "--_kroma-design-tokens---color-accent",
+      "figmaName": "color/accent",
+      "usage": "Highlight, commission-border, dekorative elementer"
+    },
+    "border": {
+      "$value": "#e8e3dc",
+      "$type": "color",
+      "cssVar": null,
+      "figmaName": "color/border",
+      "usage": "Standard kantlinje (alle seksjoner og inputs)"
+    },
+    "borderLight": {
+      "$value": "#f0ede8",
+      "$type": "color",
+      "cssVar": null,
+      "figmaName": "color/border-light",
+      "usage": "Lett kantlinje (nav-bottom, spek-rader)"
+    },
+    "cardBg": {
+      "$value": "#f5f3ef",
+      "$type": "color",
+      "cssVar": null,
+      "figmaName": "color/card-bg",
+      "usage": "Kortbakgrunn (alle artwork-cards)"
+    },
+    "available": {
+      "$value": "#f0f7f0",
+      "$type": "color",
+      "cssVar": null,
+      "figmaName": "color/available-bg",
+      "usage": "Tilgjengelig-badge bakgrunn"
+    },
+    "availableText": {
+      "$value": "#6b8f6b",
+      "$type": "color",
+      "cssVar": null,
+      "figmaName": "color/available-text",
+      "usage": "Tilgjengelig-badge tekst"
+    }
+  },
+
+  "typography": {
+    "fontSerif": {
+      "$value": "Georgia, serif",
+      "$type": "fontFamily",
+      "cssVar": "--_kroma-design-tokens---font-serif",
+      "figmaName": "font/serif",
+      "usage": "Titler, kunstnernavn, kortoverskrifter, logo"
+    },
+    "fontSans": {
+      "$value": "system-ui, -apple-system, sans-serif",
+      "$type": "fontFamily",
+      "cssVar": "--_kroma-design-tokens---font-sans",
+      "figmaName": "font/sans",
+      "usage": "Navigasjon, labels, brødtekst, knapper"
+    },
+    "scale": {
+      "heroTitle": {
+        "$value": "64px",
+        "$type": "dimension",
+        "cssVar": "--_kroma-design-tokens---size-hero-title",
+        "figmaName": "size/hero-title",
+        "lineHeight": "1.1",
+        "weight": "400",
+        "font": "Georgia",
+        "webflowClass": "kroma-hero-title",
+        "usage": "Forsideoverskrift"
+      },
+      "sectionTitle": {
+        "$value": "36px",
+        "$type": "dimension",
+        "cssVar": "--_kroma-design-tokens---size-section-title",
+        "figmaName": "size/section-title",
+        "lineHeight": "1.2",
+        "weight": "400",
+        "font": "Georgia",
+        "webflowClass": "o-cta-title",
+        "usage": "Seksjonsoverskrifter, CTA-titler"
+      },
+      "pageTitle": {
+        "$value": "48px",
+        "$type": "dimension",
+        "cssVar": null,
+        "figmaName": "size/page-title",
+        "lineHeight": "1.1",
+        "weight": "400",
+        "font": "Georgia",
+        "webflowClass": "g-page-title",
+        "usage": "Sideoverskrift (galleri, om oss)"
+      },
+      "artworkTitle": {
+        "$value": "42px",
+        "$type": "dimension",
+        "cssVar": null,
+        "figmaName": "size/artwork-title",
+        "lineHeight": "1.15",
+        "weight": "400",
+        "font": "Georgia",
+        "webflowClass": "d-title",
+        "usage": "Kunstverk-detaljside tittel"
+      },
+      "cardTitle": {
+        "$value": "18px",
+        "$type": "dimension",
+        "cssVar": "--_kroma-design-tokens---size-card-title",
+        "figmaName": "size/card-title",
+        "fontStyle": "italic",
+        "weight": "400",
+        "font": "Georgia",
+        "webflowClass": "kroma-card-title",
+        "usage": "Kortoverskrifter i galleri"
+      },
+      "body": {
+        "$value": "16px",
+        "$type": "dimension",
+        "cssVar": "--_kroma-design-tokens---size-body",
+        "figmaName": "size/body",
+        "lineHeight": "1.75",
+        "font": "system-ui",
+        "webflowClass": "o-lead",
+        "usage": "Intro-tekst, brødtekst"
+      },
+      "bodySmall": {
+        "$value": "15px",
+        "$type": "dimension",
+        "cssVar": null,
+        "figmaName": "size/body-small",
+        "lineHeight": "1.8",
+        "font": "system-ui",
+        "webflowClass": "o-text",
+        "usage": "Brødtekst på interne sider"
+      },
+      "navLink": {
+        "$value": "13px",
+        "$type": "dimension",
+        "cssVar": null,
+        "figmaName": "size/nav-link",
+        "letterSpacing": "0.12em",
+        "transform": "uppercase",
+        "font": "system-ui",
+        "webflowClass": "g-nav-link",
+        "usage": "Navigasjonslenker"
+      },
+      "eyebrow": {
+        "$value": "10px",
+        "$type": "dimension",
+        "cssVar": null,
+        "figmaName": "size/eyebrow",
+        "letterSpacing": "0.3em",
+        "transform": "uppercase",
+        "font": "system-ui",
+        "webflowClass": "o-eyebrow",
+        "usage": "Seksjons-labels, kategori-merker"
+      },
+      "micro": {
+        "$value": "11px",
+        "$type": "dimension",
+        "cssVar": null,
+        "figmaName": "size/micro",
+        "letterSpacing": "0.15em",
+        "transform": "uppercase",
+        "font": "system-ui",
+        "webflowClass": "kroma-section-label",
+        "usage": "Micro-labels, kortmeta"
+      }
+    }
+  },
+
+  "spacing": {
+    "section": {
+      "$value": "48px",
+      "$type": "dimension",
+      "cssVar": "--_kroma-design-tokens---spacing-section",
+      "figmaName": "spacing/section",
+      "usage": "Seksjons-padding top/bottom"
+    },
+    "pagePadding": {
+      "$value": "48px",
+      "$type": "dimension",
+      "cssVar": null,
+      "figmaName": "spacing/page-padding",
+      "usage": "Horisontal padding alle seksjoner"
+    },
+    "cardPadding": {
+      "$value": "14px 20px 20px",
+      "$type": "dimension",
+      "cssVar": null,
+      "figmaName": "spacing/card-padding",
+      "usage": "Padding i kortbody"
+    },
+    "gridGap": {
+      "$value": "32px",
+      "$type": "dimension",
+      "cssVar": null,
+      "figmaName": "spacing/grid-gap",
+      "usage": "Gap i 3-kolonne artwork-grid"
+    },
+    "navHeight": {
+      "$value": "64–72px",
+      "$type": "dimension",
+      "cssVar": null,
+      "figmaName": "spacing/nav-height",
+      "usage": "Fast høyde på navigasjon (sticky)"
+    }
+  },
+
+  "layout": {
+    "maxWidth": {
+      "$value": "1280px",
+      "$type": "dimension",
+      "cssVar": "--_kroma-design-tokens---size-max-width",
+      "figmaName": "layout/max-width",
+      "usage": "Max-bredde for alle inner-containere"
+    },
+    "galleryMaxWidth": {
+      "$value": "1440px",
+      "$type": "dimension",
+      "figmaName": "layout/gallery-max-width",
+      "usage": "Galleri-side bredere container"
+    },
+    "gridColumns": {
+      "desktop": "repeat(3, 1fr)",
+      "tablet": "repeat(2, 1fr)",
+      "mobile": "1fr",
+      "figmaName": "layout/grid-columns"
+    },
+    "sidebarWidth": {
+      "$value": "200–220px",
+      "figmaName": "layout/sidebar-width",
+      "usage": "Galleri-sidebar (sticky)"
+    }
+  },
+
+  "components": {
+    "nav": {
+      "height": "64–72px",
+      "background": "rgba(255,255,255,0.95)",
+      "backdropFilter": "blur(8px)",
+      "borderBottom": "1px solid #f0ede8",
+      "position": "fixed, top:0, z-index:100",
+      "webflowClass": "kroma-nav",
+      "padding": "24px 48px"
+    },
+    "artworkCard": {
+      "background": "#f5f3ef",
+      "imageAspectRatio": "3/4",
+      "imagePlaceholder": "#e8e3dc",
+      "bodyPadding": "14px 20px 20px",
+      "titleFont": "Georgia italic 17–18px",
+      "metaFont": "system-ui 10px uppercase stone",
+      "priceFont": "system-ui 14px #1a1a1a",
+      "transition": "box-shadow 0.25s ease, transform 0.25s ease",
+      "webflowClass": "gl-card"
+    },
+    "buttonPrimary": {
+      "background": "#1a1a1a",
+      "color": "#fff",
+      "padding": "18px 36px",
+      "fontSize": "13px",
+      "letterSpacing": "0.15em",
+      "textTransform": "uppercase",
+      "borderRadius": "0",
+      "webflowClass": "kroma-btn-primary"
+    },
+    "buttonSecondary": {
+      "background": "transparent",
+      "color": "#1a1a1a",
+      "border": "1px solid #1a1a1a",
+      "padding": "14px 36px",
+      "fontSize": "11px",
+      "letterSpacing": "0.2em",
+      "textTransform": "uppercase",
+      "webflowClass": "kroma-btn-secondary"
+    },
+    "formInput": {
+      "border": "1px solid #e8e3dc",
+      "background": "#fff",
+      "color": "#1a1a1a",
+      "padding": "14px 16px",
+      "fontSize": "15px",
+      "borderRadius": "0",
+      "font": "system-ui",
+      "webflowClass": "kp-input"
+    },
+    "footer": {
+      "background": "#1a1a1a",
+      "color": "#9a8f82",
+      "fontSize": "12px",
+      "letterSpacing": "0.1em",
+      "padding": "48px",
+      "textAlign": "center",
+      "webflowClass": "kroma-footer"
+    }
+  },
+
+  "cms": {
+    "collections": {
+      "kunstverk": {
+        "id": "6a099ffbd0720bfa0e316733",
+        "fields": ["name", "slug", "hovedbilde", "bildegalleri", "bilde-2", "bilde-3", "bilde-4", "bilde-5", "pris", "pris-formatert", "medium", "dimensjoner", "ar", "beskrivelse", "artist", "kategori", "tema", "storrelse", "orientering", "stil", "tilgjengelig-for-salg"]
+      },
+      "artister": {
+        "id": "6a099ffc023291a3d44e215f",
+        "fields": ["name", "slug", "profilbilde", "biografi", "nasjonalitet", "nettside"]
+      }
+    },
+    "pages": {
+      "home": "6a0992ca57f9c63fb50e82d9",
+      "galleri": "6a09a0835005e0eb8ae56aaf",
+      "omOss": "6a09a086411549c06c29cc4e",
+      "kontakt": "6a09a087710fc8bb19d799c3",
+      "kunstverk": "6a099ffbd0720bfa0e316782",
+      "artister": "6a099ffc023291a3d44e2188",
+      "styleGuide": "6a1813697e01cbae8bdcde47"
+    }
+  }
+}
