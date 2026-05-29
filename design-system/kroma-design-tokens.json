@@ -10,7 +10,6 @@
       "collection": "Kroma Design Tokens"
     }
   },
-
   "color": {
     "ink": {
       "$value": "#1a1a1a",
@@ -48,7 +47,7 @@
       "usage": "Brødtekst, intro-tekst, beskrivelser"
     },
     "accent": {
-      "$value": "#c8a882",
+      "$value": "#b08050",
       "$type": "color",
       "cssVar": "--_kroma-design-tokens---color-accent",
       "figmaName": "color/accent",
@@ -90,7 +89,6 @@
       "usage": "Tilgjengelig-badge tekst"
     }
   },
-
   "typography": {
     "fontSerif": {
       "$value": "Georgia, serif",
@@ -217,7 +215,6 @@
       }
     }
   },
-
   "spacing": {
     "section": {
       "$value": "48px",
@@ -255,7 +252,6 @@
       "usage": "Fast høyde på navigasjon (sticky)"
     }
   },
-
   "layout": {
     "maxWidth": {
       "$value": "1280px",
@@ -282,7 +278,6 @@
       "usage": "Galleri-sidebar (sticky)"
     }
   },
-
   "components": {
     "nav": {
       "height": "64–72px",
@@ -344,16 +339,44 @@
       "webflowClass": "kroma-footer"
     }
   },
-
   "cms": {
     "collections": {
       "kunstverk": {
         "id": "6a099ffbd0720bfa0e316733",
-        "fields": ["name", "slug", "hovedbilde", "bildegalleri", "bilde-2", "bilde-3", "bilde-4", "bilde-5", "pris", "pris-formatert", "medium", "dimensjoner", "ar", "beskrivelse", "artist", "kategori", "tema", "storrelse", "orientering", "stil", "tilgjengelig-for-salg"]
+        "fields": [
+          "name",
+          "slug",
+          "hovedbilde",
+          "bildegalleri",
+          "bilde-2",
+          "bilde-3",
+          "bilde-4",
+          "bilde-5",
+          "pris",
+          "pris-formatert",
+          "medium",
+          "dimensjoner",
+          "ar",
+          "beskrivelse",
+          "artist",
+          "kategori",
+          "tema",
+          "storrelse",
+          "orientering",
+          "stil",
+          "tilgjengelig-for-salg"
+        ]
       },
       "artister": {
         "id": "6a099ffc023291a3d44e215f",
-        "fields": ["name", "slug", "profilbilde", "biografi", "nasjonalitet", "nettside"]
+        "fields": [
+          "name",
+          "slug",
+          "profilbilde",
+          "biografi",
+          "nasjonalitet",
+          "nettside"
+        ]
       }
     },
     "pages": {
